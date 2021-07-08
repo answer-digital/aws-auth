@@ -1,0 +1,29 @@
+{
+  "mfa_arn": "arn:aws:iam::347250048819:mfa/user.name",
+  "roles": [
+    {
+      "name": "dev",
+      "profile": "nhsd-list-rec-dev",
+      "arn": "arn:aws:iam::092420156801:role/NHSDDeveloperRole",
+      "isEnabled": true
+    },
+    {
+      "name": "preprod",
+      "profile": "nhsd-list-rec-preprod",
+      "arn": "arn:aws:iam::287634746327:role/NHSDDeveloperRole",
+      "isEnabled": false
+    },
+    {
+      "name": "prod",
+      "profile": "nhsd-list-rec-prod",
+      "arn": "arn:aws:iam::nhsd-list-reconciliation-prod:role/NHSDDeveloperRole",
+      "isEnabled": false
+    },
+    {
+      "name": "mgmt",
+      "profile": "nhsd-list-rec-mgmt",
+      "arn": "arn:aws:iam::486319732046:role/NHSDDeveloperRole",
+      "isEnabled": false
+    }
+  ]
+}
